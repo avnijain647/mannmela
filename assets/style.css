@@ -19,14 +19,24 @@ body{
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 21px;
 }
+.content{
+  margin:100px 200px 50px 200px;
 
+  position: absolute;
+  top: 0;
+  left:0;
+}
 .intro{
+  z-index:2;
   color:#101518;
   line-height: 1.6;
-  font-size: 36px;
+  font-size: 32px;
   font-family: 'Bungee', cursive;
 }
 
+.intro b{
+  color:#F28373;
+}
 .blurb{
   margin: 100px 0 100px 0;
   display: flex;
@@ -42,8 +52,71 @@ font-size: 21px;
     /* background-color: yellow; */
   height: 300px;
 }
-
+.images{
+  text-align: center;
+  /* background-color: red; */
+  margin-top:50px;
+    margin-bottom:50px;
+  margin-left:auto;
+  margin-right:auto;
+}
 .images img{
-margin: 100px 0 100px 0;
-  height:600px;
+  /* background-color: blue; */
+  height:500px;
+}
+
+.team{
+
+  font-size: 32px;
+  font-family: 'Bungee', cursive;
+}
+
+.members{
+  margin: 20px 0 20px 0;
+  line-height: 1.4;
+  font-size: 16px;
+  color:#F28373;
+}
+
+.members b{
+  color:#000000;
+}
+
+.partners{
+  display:flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Bungee Hairline', cursive;
+  margin: 40px 0 40px 0;
+  line-height: 1.4;
+  font-size: 16px;
+  color:#000000;
+}
+.partners img{
+  width:80px;
+  margin-right:20px;
+    margin-left:10px;
+}
+
+
+.partner1,
+.partner2,
+.partner3{
+  display:flex;
+  flex-wrap: nowrap;
+  align-items:  center;
+  justify-content:  center;
+}
+.contact{
+  font-family: 'Bungee', cursive;
+font-size: 16px;
+text-align: center;
+}
+
+
+a{
+text-decoration: underline;
+  color: black;
+  /* text-decoration: none; */
 }
