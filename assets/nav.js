@@ -12,7 +12,7 @@ var windowWidth = $(window).width()
 var barpercentage = percentage * bardiff/100
 
 
-
+if(windowWidth>500){
 if (pixels <= 180){
 
        $('.headerimg').css('width', 300 - pixels/3)
@@ -28,6 +28,7 @@ if (pixels <= 180){
       $('.headerimg').css('top', 25 )
       $('.headerimg').css('right', 25)
     }
+}
 
  })
 
