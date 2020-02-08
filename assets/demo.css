@@ -44,7 +44,6 @@ main {
 
 .morph {
 	position: relative;
-	height: 100%;
-	/* fill: var(--background-color-2); */
+	height: 10 0%;
 	flex: none;
 }

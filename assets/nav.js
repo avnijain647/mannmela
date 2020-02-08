@@ -16,13 +16,15 @@ var barpercentage = percentage * bardiff/100
 if (pixels <= 180){
 
        $('.headerimg').css('width', 300 - pixels/3)
-       $('.headerimg').css('height', 300 - pixels/3)
+       $('.headerimg').css('height', 260 - pixels/3)
            $('.headerimg').removeClass('size')
+           $('.headerimg').css('top', 100 )
+           $('.headerimg').css('right', 200)
 
     }
     else{
       $('.headerimg').css('width', 100 )
-      $('.headerimg').css('height', 100)
+      $('.headerimg').css('height', 85)
       $('.headerimg').css('top', 25 )
       $('.headerimg').css('right', 25)
     }

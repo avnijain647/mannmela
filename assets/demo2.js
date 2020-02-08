@@ -126,7 +126,7 @@
 			tx: 0,
 			ty: -100,
 			fill: {
-				color: '#d65640',
+				color: '#f28373',
 				duration: 400,
 				easing: 'linear'
 			},
@@ -150,7 +150,7 @@
 			tx: 0,
 			ty: 100,
 			fill: {
-				color: '#fff',
+				color: '#ff99cc',
 				duration: 500,
 				easing: 'linear'
 			},
