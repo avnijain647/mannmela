@@ -13,20 +13,20 @@ var barpercentage = percentage * bardiff/100
 
 
 if(windowWidth>500){
-if (pixels <= 180){
+if (pixels <= 300){
 
-       $('.headerimg').css('width', 300 - pixels/3)
-       $('.headerimg').css('height', 260 - pixels/3)
-           $('.headerimg').removeClass('size')
-           $('.headerimg').css('top', 100 )
-           $('.headerimg').css('right', 200)
+       $('.headerimg').css('width', 240 - pixels/5)
+       $('.headerimg').css('height', 205 - pixels/5)
+           // $('.headerimg').removeClass('size')
+           $('.headerimg').css('top', 20 )
+           $('.headerimg').css('right', 20)
 
     }
     else{
       $('.headerimg').css('width', 100 )
       $('.headerimg').css('height', 85)
-      $('.headerimg').css('top', 25 )
-      $('.headerimg').css('right', 25)
+      $('.headerimg').css('top', 20 )
+      $('.headerimg').css('right', 20)
     }
 }
 
