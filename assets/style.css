@@ -123,7 +123,7 @@ max-width:500px;
   flex-wrap:nowrap;
   justify-content: flex-start;
   align-items: stretch;
-  animation: move 3s steps(3)infinite;
+  animation: move 5s steps(5)infinite;
   }
 
   @keyframes move {
@@ -131,14 +131,16 @@ max-width:500px;
     transform: translateX(0);
   }
   100%{
-    transform: translateX(-2160px);
+    transform: translateX(-3600px);
   }
   }
 
 
 .image-1 img,
 .image-2 img,
-.image-3 img{
+.image-3 img,
+.image-4 img,
+.image-5 img{
   width: 720px;
   height: 595px;
 }
@@ -240,7 +242,9 @@ text-decoration: underline;
 
       .image-1 img,
       .image-2 img,
-      .image-3 img{
+      .image-3 img,
+      .image-4 img,
+      .image-5 img{
         width: 300px;
         height: 248px;
       }
@@ -251,7 +255,7 @@ text-decoration: underline;
       }
 
       100%{
-        transform: translateX(-900px);
+        transform: translateX(-1500px);
       }
 
       }
