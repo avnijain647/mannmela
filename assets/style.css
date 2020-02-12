@@ -123,7 +123,7 @@ max-width:500px;
   flex-wrap:nowrap;
   justify-content: flex-start;
   align-items: stretch;
-  animation: move 5s steps(5)infinite;
+  animation: move 9s steps(9)infinite;
   }
 
   @keyframes move {
@@ -131,7 +131,7 @@ max-width:500px;
     transform: translateX(0);
   }
   100%{
-    transform: translateX(-3600px);
+    transform: translateX(-6480px);
   }
   }
 
@@ -140,7 +140,11 @@ max-width:500px;
 .image-2 img,
 .image-3 img,
 .image-4 img,
-.image-5 img{
+.image-5 img,
+.image-6 img,
+.image-7 img,
+.image-8 img,
+.image-9 img{
   width: 720px;
   height: 595px;
 }
@@ -244,7 +248,11 @@ text-decoration: underline;
       .image-2 img,
       .image-3 img,
       .image-4 img,
-      .image-5 img{
+      .image-5 img,
+      .image-6 img,
+      .image-7 img,
+      .image-8 img,
+      .image-9 img{
         width: 300px;
         height: 248px;
       }
@@ -255,7 +263,7 @@ text-decoration: underline;
       }
 
       100%{
-        transform: translateX(-1500px);
+        transform: translateX(-2700px);
       }
 
       }
