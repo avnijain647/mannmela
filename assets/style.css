@@ -7,7 +7,7 @@ left:0;
 
 
 .header{
-  z-index:9;
+z-index:100;
   position: fixed;
   top: 20px;
   right:20px;
@@ -20,7 +20,7 @@ left:0;
      top: 0px;
 } */
     .header img{
-
+z-index:100;
       /* background-color: red; */
     /* z-index:10;
     position: fixed;
@@ -30,6 +30,7 @@ left:0;
   height:205px;
 }
 .cta{
+  z-index:10;
   position: fixed;
 bottom:5px;
 left:5px;
@@ -37,8 +38,8 @@ left:5px;
   height:120px;
   border-radius:100px;
   /* border:5px solid #37a7ff; */
-  color:white;
-  background-color: #fd9bcb;
+  color:#c0599d;
+  background-color: #ffccff;
   animation: slide 5s infinite;
 }
 @keyframes slide {
