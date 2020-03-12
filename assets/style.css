@@ -29,7 +29,60 @@ left:0;
   width:240px;
   height:205px;
 }
-
+.cta{
+  position: fixed;
+bottom:5px;
+left:5px;
+  width:120px;
+  height:120px;
+  border-radius:100px;
+  /* border:5px solid #37a7ff; */
+  color:white;
+  background-color: #fd9bcb;
+  animation: slide 5s infinite;
+}
+@keyframes slide {
+  0%{
+    left:5px;
+  }
+  50%{
+    left:12px;
+  }
+  100%{
+    left:5px;
+  }
+}
+.cta-text{
+  width:100px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Bungee', cursive;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.cta-shine {
+  /* background-color: red; */
+  left:-5px;
+  width:120px;
+  height:120px;
+  position: absolute;
+  transform-origin: center;
+  transform: rotate(0);
+  animation: rotate 5s infinite;
+}
+@keyframes rotate {
+  0%{
+  transform: rotate(0);
+  }
+  50%{
+    transform: rotate(20deg);
+  }
+  100%{
+  transform: rotate(0);
+  }
+}
 .content{
     z-index:9;
   margin:100px auto 50px auto;
