@@ -34,13 +34,13 @@ z-index:100;
   position: fixed;
 bottom:5px;
 left:5px;
-  width:120px;
-  height:120px;
+  width:240px;
+  height:80px;
   border-radius:100px;
   /* border:5px solid #37a7ff; */
   color:white;
   background-color: #c0599d;
-  animation: slide 5s infinite;
+  /* animation: slide 5s infinite; */
 }
 @keyframes slide {
   0%{
@@ -54,7 +54,7 @@ left:5px;
   }
 }
 .cta-text{
-  width:100px;
+  width:200px;
   text-align: center;
   font-size: 16px;
   font-family: 'Bungee', cursive;
@@ -112,7 +112,7 @@ max-width:500px;
 
 }
 .intro b{
-  color:#C1569E;
+  color:#f28373;
 }
 .blurb{
   position: relative;
